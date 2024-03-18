@@ -6,6 +6,11 @@ let secondNumber = prompt("Digite o segundo número:")
 firstNumber = Number(firstNumber)
 secondNumber = Number(secondNumber)
 
+if (firstNumber != secondNumber){
+    alert('Os números inseridos são diferentes')
+} else{
+    alert('Os números inseridos são iguais')
+}
 
 let sum = firstNumber + secondNumber
 
@@ -35,10 +40,3 @@ alert('Multiplicação: ' + multi)
 alert('Divisão: ' + div)
 
 alert('Resto da divisão: ' + restDiv)
-
-
-if (firstNumber != secondNumber){
-    alert('Os números inseridos são diferentes')
-} else{
-    alert('Os números inseridos são iguais')
-}
