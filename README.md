@@ -1,12 +1,14 @@
-# Operações matemáticas
+# Math Operations
 
--- No desafio, solicita ao usuário a inserção de dois números e, a partir deles, realiza os seguintes cálculos:
- 
-    - A soma dos dois números;
-    - A subtração dos dois números;
-    - A multiplicação dos dois números;
-    - A divisão dos dois números;
-    - O resto da divisão dos dois números.
+- In this challenge, the user is asked to enter two numbers, and based on those numbers, the following calculations are performed:
 
- - Verifique se a soma dos dois números é par.
- - Verifique se os dois números inseridos são iguais.
+    - The sum of the two numbers
+    - The difference between the two numbers
+    - The product of the two numbers
+    - The quotient of the two numbers
+    - The remainder of the division of the two numbers
+
+- Additionally:
+
+      - Check if the sum of the two numbers is even.
+      - Check if the two numbers entered are the same.
