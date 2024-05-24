@@ -1,15 +1,15 @@
-alert("Hora do cálculo!")
+alert("Time to calculate!")
 
-let firstNumber = prompt("Digite o primeiro número:")
-let secondNumber = prompt("Digite o segundo número:")
+let firstNumber = prompt("Enter the first number:")
+let secondNumber = prompt("Enter the second number:")
 
 firstNumber = Number(firstNumber)
 secondNumber = Number(secondNumber)
 
 if (firstNumber != secondNumber){
-    alert('Os números inseridos são diferentes')
+    alert('The numbers entered are different!')
 } else{
-    alert('Os números inseridos são iguais')
+    alert('The numbers entered are the same!')
 }
 
 let sum = firstNumber + secondNumber
@@ -24,19 +24,19 @@ let restDiv = firstNumber % secondNumber
 
 
 
-alert('Soma: ' + sum)
+alert('Sum: ' + sum)
 
 if (sum % 2 == 0){
-    alert('A soma dos dois números é par')
+    alert('The sum of the two numbers is even!')
 } else{
-    alert('A soma dos dois números é ímpar')
+    alert('The sum of the two numbers is odd!')
 }
 
 
-alert('Subtração: ' + sub)
+alert('Subtraction: ' + sub)
 
-alert('Multiplicação: ' + multi)
+alert('Multiplication: ' + multi)
 
-alert('Divisão: ' + div)
+alert('Division: ' + div)
 
-alert('Resto da divisão: ' + restDiv)
+alert('Rest of Division: ' + restDiv)
